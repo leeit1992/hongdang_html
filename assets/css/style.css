@@ -1,0 +1,200 @@
+.mxd-machine {
+  margin-top: 80px; }
+  .mxd-machine .mxd-wrap-img {
+    position: relative;
+    width: 100%; }
+    .mxd-machine .mxd-wrap-img img {
+      max-width: 100%; }
+    .mxd-machine .mxd-wrap-img .mxd-wrap-icon {
+      position: absolute;
+      top: 47%;
+      left: 7%; }
+      .mxd-machine .mxd-wrap-img .mxd-wrap-icon img {
+        max-width: 100%; }
+    .mxd-machine .mxd-wrap-img .mxd-wrap-title {
+      position: absolute;
+      font-family: 'Asap';
+      font-weight: 700;
+      font-size: 30px;
+      top: 67%;
+      left: 7%;
+      color: #fff; }
+    .mxd-machine .mxd-wrap-img .mxd-wrap-link {
+      position: absolute;
+      bottom: 10%;
+      left: 7%;
+      border-radius: 30px;
+      border: 2px solid #fff;
+      padding: 12px 30px; }
+      .mxd-machine .mxd-wrap-img .mxd-wrap-link:hover {
+        background: #cf2127;
+        border: #cf2127; }
+      .mxd-machine .mxd-wrap-img .mxd-wrap-link a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 14px; }
+
+@media only screen and (max-width: 426px) {
+  .mxd-machine .mxd-wrap-img .mxd-wrap-title {
+    font-size: 25px;
+    top: 50%; }
+  .mxd-machine .mxd-wrap-img .mxd-wrap-icon img {
+    top: 25%; }
+  .mxd-machine .mxd-wrap-img .mxd-wrap-icon {
+    top: 20%; } }
+
+.mxd-about--feature {
+  border-bottom: 1px solid #f2f2f2; }
+  .mxd-about--feature .about-feature {
+    height: 132px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 20px; }
+    .mxd-about--feature .about-feature--icon {
+      padding-bottom: 20px;
+      border-right: 1px solid #f2f2f2; }
+    .mxd-about--feature .about-feature--title {
+      font-weight: bold;
+      font-family: 'Asap';
+      font-size: 14px;
+      padding-top: 22px; }
+    .mxd-about--feature .about-feature--desc {
+      font-family: 'Asap';
+      font-weight: bold;
+      color: #979696;
+      font-size: 14px; }
+
+.details-product {
+  margin-top: 57px; }
+  .details-product--img {
+    max-width: 100%; }
+    .details-product--img img {
+      max-width: 100%; }
+  .details-product--date {
+    font-family: 'Asap';
+    font-size: 12px;
+    font-weight: 700;
+    color: #979696;
+    margin-top: 30px; }
+  .details-product--title {
+    font-family: 'Asap';
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-top: 15px;
+    width: 77%;
+    line-height: 25px; }
+  .details-product--deps {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 500;
+    color: #979696;
+    margin-top: 23px;
+    width: 85%;
+    line-height: 25px; }
+  .details-product--link {
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px; }
+    .details-product--link a {
+      color: #1c1c1c;
+      text-decoration: underline; }
+
+.mxd-header-border {
+  height: 40px;
+  border-bottom: 1px solid #f2f2f2; }
+
+.mxd-header--title p {
+  line-height: 39px;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 500; }
+
+.nav--pills {
+  margin-left: 10%; }
+  .nav--pills li {
+    line-height: 39px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block; }
+    .nav--pills li a {
+      color: #393939;
+      padding: 0px;
+      text-indent: 30px;
+      background: no-repeat; }
+      .nav--pills li a:hover {
+        color: red; }
+
+.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+  text-align: center; }
+
+.mxd-product {
+  width: 260px;
+  display: inline-grid; }
+  .mxd-product--image {
+    max-width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative; }
+    .mxd-product--image:hover .mxd-product-text-link {
+      display: block; }
+    .mxd-product--image img {
+      max-width: 100%; }
+    .mxd-product--image .mxd-product-text-link {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: white;
+      opacity: 0.7;
+      border: 2px solid red; }
+      .mxd-product--image .mxd-product-text-link .mxd-product--wrap-button {
+        max-width: 100%;
+        height: 100%;
+        position: relative; }
+      .mxd-product--image .mxd-product-text-link a {
+        position: absolute;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: 'Quicksand';
+        border-radius: 20px;
+        border: 2px solid #cf2127;
+        padding: 5px;
+        background-color: #cf2127;
+        color: #fff;
+        top: 43%;
+        left: 17%;
+        width: 65%;
+        text-align: center;
+        line-height: 22px; }
+  .mxd-product--desc {
+    margin-top: 32px;
+    text-align: left; }
+  .mxd-product--button a {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Asap'; }
+  .mxd-product--title {
+    font-weight: 700;
+    font-family: 'Asap';
+    font-size: 16px;
+    padding-top: 20px; }
+  .mxd-product--price {
+    font-weight: 500;
+    font-family: 'Asap';
+    font-size: 16px;
+    padding-top: 20px; }
+    .mxd-product--price a {
+      text-decoration: underline;
+      color: red; }

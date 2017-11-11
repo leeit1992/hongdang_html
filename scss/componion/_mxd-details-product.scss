@@ -1,0 +1,47 @@
+.details-product {
+	margin-top: 57px;
+	&--img {
+		max-width: 100%;
+		img {
+			max-width: 100%;
+		}
+	}
+
+	&--date {
+		font-family: 'Asap';
+		font-size: 12px; 
+		font-weight: 700;
+		color: #979696;
+		margin-top: 30px
+	}
+
+	&--title {
+		font-family: 'Asap'; 
+		font-size: 20px;
+		font-weight: 700; 
+		color: #1c1c1c;
+		margin-top: 15px;
+		width: 77%;
+		line-height: 25px;
+	}
+
+	&--deps {
+		font-family: 'Quicksand'; 
+		font-size: 16px; 
+		font-weight: 500;
+		color: #979696;
+		margin-top: 23px;
+		width: 85%;
+    	line-height: 25px;
+	}
+	&--link {
+		font-family: 'Quicksand';
+		font-size: 14px;
+		font-weight: 700;
+		margin-top: 20px;
+		 a {
+			color: #1c1c1c;
+			text-decoration: underline;
+		}
+	}
+}

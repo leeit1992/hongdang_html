@@ -1,0 +1,33 @@
+.mxd-header-border{
+	height: 40px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.mxd-header--title {
+	p{
+		line-height: 39px; 
+		font-family: 'Quicksand'; 
+		font-size:14px; 
+		font-weight: 500;
+	}
+}
+
+.nav--pills {
+	margin-left: 10%;
+	li {
+		line-height: 39px; 
+		font-family: 'Quicksand'; 
+		font-size:14px; 
+		font-weight: 500;
+		display: inline-block;
+		a {
+			color: #393939;
+			padding: 0px;
+			text-indent: 30px;
+			background: no-repeat;
+			&:hover {
+				color: red;
+			}
+		}
+	}
+}
