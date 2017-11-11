@@ -12,7 +12,7 @@
 	}
 }
 
-.nav--pills {
+.mxd-header-menu {
 	margin-left: 10%;
 	li {
 		line-height: 39px; 
@@ -24,7 +24,8 @@
 			color: #393939;
 			padding: 0px;
 			text-indent: 30px;
-			background: no-repeat;
+			text-decoration: none;
+			border-right: 1px solid;
 			&:hover {
 				color: red;
 			}

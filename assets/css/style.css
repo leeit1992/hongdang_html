@@ -114,20 +114,21 @@
   font-size: 14px;
   font-weight: 500; }
 
-.nav--pills {
+.mxd-header-menu {
   margin-left: 10%; }
-  .nav--pills li {
+  .mxd-header-menu li {
     line-height: 39px;
     font-family: 'Quicksand';
     font-size: 14px;
     font-weight: 500;
     display: inline-block; }
-    .nav--pills li a {
+    .mxd-header-menu li a {
       color: #393939;
       padding: 0px;
       text-indent: 30px;
-      background: no-repeat; }
-      .nav--pills li a:hover {
+      text-decoration: none;
+      border-right: 1px solid; }
+      .mxd-header-menu li a:hover {
         color: red; }
 
 .col-xs-12.col-sm-6.col-md-4.col-lg-3 {
