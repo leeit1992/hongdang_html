@@ -26,7 +26,7 @@
 
 			.mxd-wrap-link {
 				position: absolute;
-				bottom: 10%;
+				bottom: 5%;
 				left: 7%;
 				border-radius: 30px;
 				border: 2px solid #fff;
@@ -61,26 +61,8 @@
 			.mxd-machine .mxd-wrap-img .mxd-wrap-icon {
 			    top: 20%;
 			}
+
+			.mxd-machine .mxd-wrap-img .mxd-wrap-link {
+			    padding: 7px 30px;
+			}
 		}
-
-			// .mxd-wrap-link {
-			// 	position: absolute;
-			// 	bottom: 10%;
-			// 	left: 7%;
-			// 	border-radius: 30px;
-			// 	border: 2px solid #fff;
-			// 	padding: 12px 30px;
-			// 	&:hover {
-			// 			background: #cf2127;
-			// 			border: #cf2127;
-			// 		}
-			// 	a{
-			// 		color: #fff;
-			// 		text-decoration: none;
-			// 		font-family: 'Asap';
-			// 		font-weight: 700;
-			// 		font-size: 14px;
-			// 	}
-			// }
-		
-

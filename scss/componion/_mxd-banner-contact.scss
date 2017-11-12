@@ -1,13 +1,64 @@
-.mxd-banner--wrap{
-	.mxd-banner--img{
+.mxd-banner-wrap{
+	.mxd-banner-img{
 		position: relative;
 		img{
-
+			max-width: 100%;
+			max-height: 100%;
 		}
-		.mxd-banner--detail{
+		.mxd-banner-detail{
 			position: absolute;
 			top: 20%;
-			right: 7%;
+			right: 3%;
+			line-height: 35px;
+			text-align: right;
+			color: #fff;
+			width: 50%;
+			.mxd-banner-title{
+				font-family: 'Asap';
+				font-weight: 700;
+				font-size: 20px;
+				padding-right: 10%;
+			}
+			.mxd-banner-cap{
+				font-family: 'Asap';
+				font-weight: 700;
+				font-size: 60px;
+				padding-right: 10%;
+			}
+			.mxd-banner-decs{
+				font-family: 'quicksand';
+				font-weight: 500;
+				font-size: 20px;
+				padding-right: 10%;
+			}
+			.mxd-banner-link{
+					border-radius: 30px;
+					border: 2px solid #fff;
+					width: 50%;
+					margin-left: 40%;
+				    margin-top: 10%;
+				a{
+					font-family: 'Asap';
+					font-weight: 700;
+					font-size: 16px;
+					text-decoration: none;
+					padding-right: 16px;
+				}
+			}
 		}
 	}
 }
+
+@media only screen and (max-width: 426px) {
+
+			.mxd-banner-wrap .mxd-banner-detail .mxd-banner-title{
+				font-size: 5px;
+
+			}
+			.mxd-banner-wrap .mxd-banner-detail .mxd-banner-cap{
+				font-size: 30px;
+			}
+// 			// .mxd-banner--wrap .mxd-banner--detail .mxd-wrap-icon {
+// 			//     top: 20%;
+// 			// }
+		}
