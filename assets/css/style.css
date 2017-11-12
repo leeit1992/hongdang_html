@@ -45,6 +45,37 @@
   .mxd-machine .mxd-wrap-img .mxd-wrap-icon {
     top: 20%; } }
 
+.mxd-contact-header {
+  margin-top: 20px; }
+  .mxd-contact-header .wrap {
+    width: 15%; }
+    .mxd-contact-header .wrap .contact-logo {
+      padding-top: 14px; }
+  .mxd-contact-header .contact-hot .contact-hl .media {
+    padding-top: 41px; }
+    .mxd-contact-header .contact-hot .contact-hl .media .media-left {
+      padding-top: 3px; }
+    .mxd-contact-header .contact-hot .contact-hl .media .media-body .media-heading {
+      font-family: 'asap';
+      font-weight: 700;
+      font-size: 16px;
+      text-align: left; }
+    .mxd-contact-header .contact-hot .contact-hl .media .media-body .media-num {
+      font-family: 'asap';
+      font-weight: 700;
+      font-size: 16px;
+      text-align: left;
+      line-height: 7px;
+      color: red; }
+  .mxd-contact-header .language-ic {
+    padding-left: 49%;
+    padding-top: 50px; }
+    .mxd-contact-header .language-ic h4 {
+      font-family: 'quicksand';
+      font-weight: 500;
+      font-size: 14px;
+      padding-top: 3px; }
+
 .mxd-about--feature {
   border-bottom: 1px solid #f2f2f2; }
   .mxd-about--feature .about-feature {
@@ -114,22 +145,23 @@
   font-size: 14px;
   font-weight: 500; }
 
-.mxd-header-menu {
-  margin-left: 10%; }
-  .mxd-header-menu li {
-    line-height: 39px;
-    font-family: 'Quicksand';
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block; }
-    .mxd-header-menu li a {
-      color: #393939;
-      padding: 0px;
-      text-indent: 30px;
-      text-decoration: none;
-      border-right: 1px solid; }
-      .mxd-header-menu li a:hover {
-        color: red; }
+.mxd-header-menu li {
+  margin-top: 10px;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0;
+  border-right: 1px solid #c7c7c7;
+  text-align: center; }
+  .mxd-header-menu li a {
+    color: #393939;
+    text-decoration: none; }
+    .mxd-header-menu li a:hover {
+      color: red; }
+
+.mxd-header-menu li:last-child {
+  border-right: none; }
 
 .col-xs-12.col-sm-6.col-md-4.col-lg-3 {
   text-align: center; }
@@ -199,6 +231,13 @@
     .mxd-product--price a {
       text-decoration: underline;
       color: red; }
+
+.mxd-banner--wrap .mxd-banner--img {
+  position: relative; }
+  .mxd-banner--wrap .mxd-banner--img .mxd-banner--detail {
+    position: absolute;
+    top: 20%;
+    right: 7%; }
 
 .email-buttom {
   padding-top: 5%;
@@ -275,3 +314,56 @@
     width: 155px;
     margin-top: 30px;
     margin-left: 5px; } }
+
+.nav-header {
+  width: 100%;
+  height: 70px;
+  font-family: 'Asap', sans-serif; }
+  .nav-header--navbar {
+    margin: 0;
+    background-color: #283890;
+    height: 100%; }
+    .nav-header--navbar .nav-header--brand {
+      height: 100%; }
+      .nav-header--navbar .nav-header--brand .nav-header--collapse {
+        width: 100%;
+        height: 100px; }
+        .nav-header--navbar .nav-header--brand .nav-header--collapse ul li {
+          height: 100%; }
+          .nav-header--navbar .nav-header--brand .nav-header--collapse ul li a {
+            line-height: 38px;
+            font-size: 16px;
+            color: #ffffff; }
+          .nav-header--navbar .nav-header--brand .nav-header--collapse ul li a:hover {
+            background-color: #d02128;
+            color: #ffffff; }
+          .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li {
+            padding-top: 25px; }
+            .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li a {
+              color: black; }
+            .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li a:hover {
+              color: red;
+              background: none; }
+            .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li b {
+              font-size: 16px; }
+      .nav-header--navbar .nav-header--brand .dropdown {
+        height: 265px;
+        position: unset; }
+
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+  background-color: #d02128;
+  color: #ffffff; }
+
+li.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown-menu li a {
+  color: black; }
+
+#bs-example-navbar-collapse-1 {
+  position: relative; }
+
+.dropdown-menu {
+  position: absolute; }
