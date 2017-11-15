@@ -1,64 +1,85 @@
+.Categori-machine {
+	text-align: center;
+}
 .mxd-banner-wrap{
 	.mxd-banner-img{
 		position: relative;
+	    width: 100%;
 		img{
 			max-width: 100%;
 			max-height: 100%;
 		}
-		.mxd-banner-detail{
-			position: absolute;
-			top: 20%;
-			right: 3%;
-			line-height: 35px;
-			text-align: right;
-			color: #fff;
-			width: 50%;
 			.mxd-banner-title{
 				font-family: 'Asap';
 				font-weight: 700;
 				font-size: 20px;
-				padding-right: 10%;
+			    position: absolute;
+			    top: 19%;
+			    right: 6%;
+			    color: #fff;
 			}
 			.mxd-banner-cap{
 				font-family: 'Asap';
 				font-weight: 700;
 				font-size: 60px;
-				padding-right: 10%;
+				position: absolute;
+			    top: 25%;
+			    right: 6%;
+			    color: #fff;
 			}
 			.mxd-banner-decs{
 				font-family: 'quicksand';
 				font-weight: 500;
 				font-size: 20px;
-				padding-right: 10%;
+				position: absolute;
+			    top: 50%;
+			    right: 6%;
+			    color: #fff;
 			}
 			.mxd-banner-link{
-					border-radius: 30px;
-					border: 2px solid #fff;
-					width: 50%;
-					margin-left: 40%;
-				    margin-top: 10%;
-				a{
-					font-family: 'Asap';
-					font-weight: 700;
-					font-size: 16px;
-					text-decoration: none;
-					padding-right: 16px;
-				}
+				    position: absolute;
+				    bottom: 11%;
+				    right: 7%;
+				    border-radius: 30px;
+				    border: 2px solid #fff;
+				    width: 25%;
+				    height: 14%;
+				    a{
+				    	padding-left: 19%;
+					    font-family: 'Asap';
+					    font-weight: 700;
+					    font-size: 17px;
+					    color: #fff;
+					    text-decoration: none;
+				        line-height: 36px;
+				    }
 			}
 		}
 	}
-}
 
 @media only screen and (max-width: 426px) {
 
-			.mxd-banner-wrap .mxd-banner-detail .mxd-banner-title{
-				font-size: 5px;
+			.mxd-banner-wrap .mxd-banner-img .mxd-banner-detail {
+			    line-height: 16px;
+			    right: 0%;
+			}
 
+			.mxd-banner-wrap .mxd-banner-img .mxd-banner-title {
+				font-size: 10px;
 			}
-			.mxd-banner-wrap .mxd-banner-detail .mxd-banner-cap{
-				font-size: 30px;
+
+			.mxd-banner-wrap .mxd-banner-img .mxd-banner-cap {
+   
+			    font-size: 32px;
 			}
-// 			// .mxd-banner--wrap .mxd-banner--detail .mxd-wrap-icon {
-// 			//     top: 20%;
-// 			// }
+
+			.mxd-banner-wrap .mxd-banner-img .mxd-banner-decs {
+			    font-size: 11px;
+			}
+
+			.mxd-banner-wrap .mxd-banner-img .mxd-banner-link a {
+			    font-size: 10px;
+			    padding-left: 15%;
+			    line-height: 0px;
+			}
 		}
