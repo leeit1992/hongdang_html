@@ -21,7 +21,11 @@
             background-color: #d02128;
             color: #ffffff; }
           .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li {
+<<<<<<< HEAD
+            padding-top: 9px; }
+=======
             padding-top: 25px; }
+>>>>>>> fe654b58e15889169119b78d46b14c5feb3dfe39
             .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li a {
               color: black; }
             .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li a:hover {
@@ -49,4 +53,8 @@ li.dropdown:hover > .dropdown-menu {
   position: relative; }
 
 .dropdown-menu {
+<<<<<<< HEAD
+  width: 100%;
+=======
+>>>>>>> fe654b58e15889169119b78d46b14c5feb3dfe39
   position: absolute; }
