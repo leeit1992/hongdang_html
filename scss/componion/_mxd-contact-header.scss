@@ -1,0 +1,48 @@
+.mxd-contact-header {
+	margin-top: 20px;
+	.wrap {
+		width: 15%;
+		.contact-logo{
+		padding-top: 14px;
+		}
+	}
+	
+	.contact-hot {
+		.contact-hl {
+			.media {
+				padding-top: 41px;
+				.media-left{
+					padding-top: 3px;
+				}
+				.media-body{
+					.media-heading {
+						font-family: 'asap';
+						font-weight: 700;
+						font-size: 16px;
+						text-align: left;
+					}
+
+					.media-num {
+						font-family: 'asap';
+						font-weight: 700;
+						font-size: 16px;
+						text-align: left;
+						line-height: 7px;
+						color: red;
+					}
+				}
+			}
+		}
+	}
+
+	.language-ic {
+		    padding-left: 49%;
+			padding-top: 50px;
+			h4{
+				font-family: 'quicksand';
+				font-weight: 500;
+				font-size: 14px;
+				padding-top: 3px;
+			}
+		}
+}
