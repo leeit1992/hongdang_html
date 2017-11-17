@@ -57,14 +57,17 @@
 	}
 
 	&--button{
+		    border-radius: 20px;
+		    border: 2px solid #283891;
+		    width: 50%;
+		    text-align: center;
 		a {
 			text-decoration: none;
-		    border-radius: 20px;
-		    border: 2px solid;
 		    padding: 5px;
 		    font-size: 13px;
 		    font-weight: 700;
 		    font-family: 'Asap';
+		    color: #283891;
 		}
 	}
 
@@ -72,14 +75,14 @@
 		font-weight: 700;
 		font-family: 'Asap';
 		font-size: 16px;
-	    padding-top: 20px;
+	    padding-top: 5%;
 	}
 
 	&--price{
 		font-weight: 500;
 		font-family: 'Asap';
 		font-size: 16px;
-	    padding-top: 20px;
+	    padding-top: 1%;
 	    a{
 	    	text-decoration: underline;
     	    color: red;
