@@ -1,0 +1,86 @@
+.mxd-GirdProduct {
+	.mxd-GirdProduct-img{
+		position: relative;
+		img{
+			    max-width: 100%;
+   				max-height: 100%;
+		}
+	}
+	.mxd-GirdProduct-text {
+		.mxd-GirdProduct-title {
+			position: absolute;
+			top: 33%;
+			left: 5%;
+			color: #fff;
+			font-family: 'Asap';
+			font-weight: 700;
+			font-size: 16px;
+		}
+
+		.mxd-GirdProduct-cap {
+			position: absolute;
+			top: 39%;
+			left: 5%;
+			color: #fff;
+			font-family: 'Asap';
+			font-weight: 700;
+			font-size: 215%;
+			width: 30%;
+		}
+
+		.mxd-GirdProduct-decs {
+			position: absolute;
+			top: 67%;
+			left: 5%;
+			color: #fff;
+			font-family: 'Asap';
+			font-weight: 700;
+			font-size: 16px;
+		}
+
+		.mxd-GirdProduct-number {
+			position: absolute;
+			top: 72%;
+			left: 5%;
+			color: #fff;
+			font-family: 'Asap';
+			font-weight: 700;
+			font-size: 30px;
+		}
+	}
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+			.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-title {
+			    top: 25%;
+			    font-size: 16px;
+			}
+
+			.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+			    top: 32%;
+			    width: 40%;
+			}
+		}
+
+
+@media only screen and (max-width: 991px) {
+				.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+			    width: 29%;
+			}
+		}
+
+@media only screen and (max-width: 425px) {
+				.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+			    width: 54%;
+			}
+
+			.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-decs {
+			    top: 70%;
+			}
+
+			.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-number {
+			    top: 75%;
+			}
+		}
