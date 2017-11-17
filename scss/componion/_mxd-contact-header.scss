@@ -36,7 +36,7 @@
 	}
 
 	.language-ic {
-		    padding-left: 49%;
+		    float: right;
 			padding-top: 50px;
 			h4{
 				font-family: 'quicksand';
@@ -45,4 +45,27 @@
 				padding-top: 3px;
 			}
 		}
+}
+
+@media only screen and (max-width: 768px){
+  .wrap-language{
+  	padding: 0;
+  }
+  .mxd-contact-header .wrap {
+    width: 100%;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 664px){
+	.contact-hot{
+		display: none;
+	}
+	.mxd-contact-header .wrap {
+    width: 30%;
+    text-align: center;
+	}
+	.wrap-language{
+		width: 70%
+	}
 }
