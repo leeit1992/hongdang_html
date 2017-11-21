@@ -100,3 +100,35 @@ li.dropdown:hover > .dropdown-menu {
 		background-color: unset;
 	}
 }
+@media only screen and (max-width: 764px){
+	.navbar-nav {
+    background-color: #283890;
+	}
+
+	.nav-header--navbar .nav-header--brand .dropdown {
+    height: auto;
+    position: unset;
+	}
+	.nav-header--collapse ul li {
+    height: auto;
+	}
+
+	.nav-header--navbar .nav-header--brand .nav-header--collapse {
+    height: auto;
+	}
+
+	li.dropdown:hover > .dropdown-menu {
+    background-color: #fff;
+	}
+
+	.nav-search {
+    text-align: center;
+    padding-top: 23px;
+    padding-right: 0;
+	}
+
+	.nav-header-exi {
+    padding-top: 40px;
+    text-align: center;
+	}
+  }
