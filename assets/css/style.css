@@ -1,0 +1,775 @@
+.mxd-machine {
+  margin-top: 80px; }
+  .mxd-machine .mxd-wrap-img {
+    position: relative;
+    width: 100%; }
+    .mxd-machine .mxd-wrap-img img {
+      max-width: 100%; }
+    .mxd-machine .mxd-wrap-img .mxd-wrap-icon {
+      position: absolute;
+      top: 47%;
+      left: 7%; }
+      .mxd-machine .mxd-wrap-img .mxd-wrap-icon img {
+        max-width: 100%; }
+    .mxd-machine .mxd-wrap-img .mxd-wrap-title {
+      position: absolute;
+      font-family: 'Asap';
+      font-weight: 700;
+      font-size: 30px;
+      top: 67%;
+      left: 7%;
+      color: #fff; }
+    .mxd-machine .mxd-wrap-img .mxd-wrap-link {
+      position: absolute;
+      bottom: 5%;
+      left: 7%;
+      border-radius: 30px;
+      border: 2px solid #fff;
+      padding: 12px 30px; }
+      .mxd-machine .mxd-wrap-img .mxd-wrap-link:hover {
+        background: #cf2127;
+        border: #cf2127; }
+      .mxd-machine .mxd-wrap-img .mxd-wrap-link a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 14px; }
+
+@media only screen and (max-width: 426px) {
+  .mxd-machine .mxd-wrap-img .mxd-wrap-title {
+    font-size: 25px;
+    top: 50%; }
+  .mxd-machine .mxd-wrap-img .mxd-wrap-icon img {
+    top: 25%; }
+  .mxd-machine .mxd-wrap-img .mxd-wrap-icon {
+    top: 20%; }
+  .mxd-machine .mxd-wrap-img .mxd-wrap-link {
+    padding: 7px 30px; } }
+
+.mxd-contact-header {
+  margin-top: 20px; }
+  .mxd-contact-header .wrap {
+    width: 15%; }
+    .mxd-contact-header .wrap .contact-logo {
+      padding-top: 14px; }
+  .mxd-contact-header .contact-hot .contact-hl .media {
+    padding-top: 41px; }
+    .mxd-contact-header .contact-hot .contact-hl .media .media-left {
+      padding-top: 3px; }
+    .mxd-contact-header .contact-hot .contact-hl .media .media-body .media-heading {
+      font-family: 'asap';
+      font-weight: 700;
+      font-size: 16px;
+      text-align: left; }
+    .mxd-contact-header .contact-hot .contact-hl .media .media-body .media-num {
+      font-family: 'asap';
+      font-weight: 700;
+      font-size: 16px;
+      text-align: left;
+      line-height: 7px;
+      color: red; }
+  .mxd-contact-header .language-ic {
+    padding-left: 49%;
+    padding-top: 50px; }
+    .mxd-contact-header .language-ic h4 {
+      font-family: 'quicksand';
+      font-weight: 500;
+      font-size: 14px;
+      padding-top: 3px; }
+
+.mxd-about--feature {
+  border-bottom: 1px solid #f2f2f2; }
+  .mxd-about--feature .about-feature {
+    height: 132px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 20px; }
+    .mxd-about--feature .about-feature--icon {
+      padding-bottom: 20px;
+      border-right: 1px solid #f2f2f2; }
+    .mxd-about--feature .about-feature--title {
+      font-weight: bold;
+      font-family: 'Asap';
+      font-size: 14px;
+      padding-top: 22px; }
+    .mxd-about--feature .about-feature--desc {
+      font-family: 'Asap';
+      font-weight: bold;
+      color: #979696;
+      font-size: 14px; }
+
+.details-product {
+  margin-top: 57px; }
+  .details-product--img {
+    max-width: 100%; }
+    .details-product--img img {
+      max-width: 100%; }
+  .details-product--date {
+    font-family: 'Asap';
+    font-size: 12px;
+    font-weight: 700;
+    color: #979696;
+    margin-top: 30px; }
+  .details-product--title {
+    font-family: 'Asap';
+    font-size: 20px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-top: 15px;
+    width: 77%;
+    line-height: 25px; }
+  .details-product--deps {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 500;
+    color: #979696;
+    margin-top: 23px;
+    width: 85%;
+    line-height: 25px; }
+  .details-product--link {
+    font-family: 'Quicksand';
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px; }
+    .details-product--link a {
+      color: #1c1c1c;
+      text-decoration: underline; }
+
+.mxd-header-border {
+  height: 40px;
+  border-bottom: 1px solid #f2f2f2; }
+
+.mxd-header--title p {
+  line-height: 39px;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 500; }
+
+.mxd-header-menu li {
+  margin-top: 10px;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0;
+  border-right: 1px solid #c7c7c7;
+  text-align: center; }
+  .mxd-header-menu li a {
+    color: #393939;
+    text-decoration: none; }
+    .mxd-header-menu li a:hover {
+      color: red; }
+
+.mxd-header-menu li:last-child {
+  border-right: none; }
+
+.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+  text-align: center; }
+
+.mxd-product {
+  width: 260px;
+  display: inline-grid; }
+  .mxd-product--image {
+    max-width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative; }
+    .mxd-product--image:hover .mxd-product-text-link {
+      display: block; }
+    .mxd-product--image img {
+      max-width: 100%; }
+    .mxd-product--image .mxd-product-text-link {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: white;
+      opacity: 0.7;
+      border: 2px solid red; }
+      .mxd-product--image .mxd-product-text-link .mxd-product--wrap-button {
+        max-width: 100%;
+        height: 100%;
+        position: relative; }
+      .mxd-product--image .mxd-product-text-link a {
+        position: absolute;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: 'Quicksand';
+        border-radius: 20px;
+        border: 2px solid #cf2127;
+        padding: 5px;
+        background-color: #cf2127;
+        color: #fff;
+        top: 43%;
+        left: 17%;
+        width: 65%;
+        text-align: center;
+        line-height: 22px; }
+  .mxd-product--desc {
+    margin-top: 32px;
+    text-align: left; }
+  .mxd-product--button {
+    border-radius: 20px;
+    border: 2px solid #283891;
+    width: 50%;
+    text-align: center; }
+    .mxd-product--button a {
+      text-decoration: none;
+      padding: 5px;
+      font-size: 13px;
+      font-weight: 700;
+      font-family: 'Asap';
+      color: #283891; }
+  .mxd-product--title {
+    font-weight: 700;
+    font-family: 'Asap';
+    font-size: 16px;
+    padding-top: 5%; }
+  .mxd-product--price {
+    font-weight: 500;
+    font-family: 'Asap';
+    font-size: 16px;
+    padding-top: 1%; }
+    .mxd-product--price a {
+      text-decoration: underline;
+      color: red; }
+
+.Categori-machine {
+  margin-top: 80px;
+  position: relative; }
+  .Categori-machine .mxd-banner-img {
+    position: relative;
+    width: 100%; }
+    .Categori-machine .mxd-banner-img img {
+      width: 100%; }
+    .Categori-machine .mxd-banner-img .mxd-banner-text {
+      top: 20%;
+      width: 100%; }
+      .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 16px;
+        position: absolute;
+        top: 18%;
+        right: 6%;
+        color: #fff; }
+      .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 60px;
+        position: absolute;
+        top: 24%;
+        right: 6%;
+        color: #fff; }
+      .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+        font-family: 'quicksand';
+        font-weight: 500;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        right: 6%;
+        color: #fff; }
+      .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+        position: absolute;
+        right: 7%;
+        border-radius: 30px;
+        border: 2px solid #fff;
+        top: 70%;
+        width: 25%;
+        height: 13%;
+        text-align: center;
+        padding-top: 1%; }
+        .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link a {
+          font-family: 'Asap';
+          font-weight: 700;
+          font-size: 16px;
+          color: #fff;
+          text-decoration: none; }
+
+@media only screen and (max-width: 1199px) {
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+    font-size: 13px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+    font-size: 50px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+    font-size: 17px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+    padding-top: 2px; } }
+
+@media only screen and (max-width: 991px) {
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+    font-size: 25px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+    font-size: 80px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+    font-size: 26px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+    padding-top: 5px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link a {
+    font-size: 25px; } }
+
+@media only screen and (max-width: 425px) {
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+    font-size: 13px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+    font-size: 45px; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+    font-size: 13px;
+    top: 55%; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+    padding-top: 5px;
+    padding-bottom: 7%; }
+  .Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link a {
+    font-size: 12px; } }
+
+.Categori-machine {
+  margin-top: 80px;
+  position: relative; }
+  .Categori-machine .mxd-banner-img-r {
+    position: relative;
+    width: 100%; }
+    .Categori-machine .mxd-banner-img-r img {
+      width: 100%; }
+    .Categori-machine .mxd-banner-img-r .mxd-banner-text-r {
+      top: 20%;
+      width: 100%; }
+      .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-title-r {
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 16px;
+        position: absolute;
+        top: 13%;
+        color: #fff;
+        left: 6%; }
+      .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-cap-r {
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 60px;
+        position: absolute;
+        top: 24%;
+        color: #fff;
+        width: 25%;
+        line-height: 100%;
+        left: 6%; }
+      .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-decs-r {
+        font-family: 'quicksand';
+        font-weight: 700;
+        font-size: 16px;
+        position: absolute;
+        top: 72%;
+        color: #fff;
+        left: 6%; }
+      .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-number-r {
+        position: absolute;
+        top: 79%;
+        font-family: 'Asap';
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        left: 6%; }
+
+@media only screen and (max-width: 991px) {
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-title-r {
+    font-size: 25px; }
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-cap-r {
+    font-size: 80px; }
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-decs-r {
+    font-size: 26px; }
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-number-r {
+    top: 81%;
+    font-size: 25px; } }
+
+@media only screen and (max-width: 425px) {
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-title-r {
+    font-size: 13px; }
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-cap-r {
+    font-size: 40px; }
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-decs-r {
+    font-size: 13px; }
+  .Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-number-r {
+    top: 80%;
+    font-size: 13px; } }
+
+@media only screen and (max-width: 320px) {
+  .mxd-banner-link {
+    line-height: 14px; } }
+
+.email-buttom {
+  padding-top: 5%;
+  width: 100%;
+  height: 222px; }
+  .email-buttom--form {
+    background: url(../img/email-buttom.jpg) no-repeat;
+    height: 222px;
+    font-family: asap; }
+  .email-buttom--left {
+    width: 100%;
+    color: #fff;
+    padding-top: 75px; }
+    .email-buttom--left b {
+      font-size: 30px; }
+    .email-buttom--left p {
+      font-weight: asap;
+      font-size: 16px; }
+  .email-buttom--box {
+    width: 100%;
+    padding-top: 80px; }
+    .email-buttom--box .box-input {
+      width: 460px;
+      height: 60px;
+      border-radius: 35px;
+      border: none;
+      padding-left: 30px;
+      font-size: 16px; }
+    .email-buttom--box .box-buttom {
+      height: 60px;
+      width: 157px;
+      margin-left: -160px;
+      border-radius: 35px;
+      border: none;
+      font-size: 16px;
+      background-color: #cf2127;
+      color: #ffffff;
+      font-weight: bold; }
+
+@media only screen and (max-width: 1198px) {
+  .email-buttom--box {
+    padding: 0;
+    text-align: center; }
+  .email-buttom--left {
+    padding-top: 45px; }
+  .email-buttom--box .box-input {
+    height: 50px;
+    width: 370px; }
+  .email-buttom--box .box-buttom {
+    height: 50px;
+    width: 140px;
+    margin-left: -143px; } }
+
+@media only screen and (max-width: 402px) {
+  .email-buttom--form {
+    width: 100%;
+    height: 410px;
+    background: url(../img/img-box-buttom.jpg) no-repeat;
+    background-size: 100%; }
+  .email-buttom--left b {
+    font-size: 40px; }
+  .email-buttom--left p {
+    font-weight: asap;
+    font-size: 22px; }
+  .email-buttom--left {
+    padding-top: 45px; }
+  .email-buttom--box .box-input {
+    padding-left: 0;
+    height: 60px;
+    width: 260px;
+    text-align: center; }
+  .email-buttom--box .box-buttom {
+    height: 60px;
+    width: 155px;
+    margin-top: 30px;
+    margin-left: 5px; } }
+
+.footer {
+  background: url(../img/icons/bgr-footer.jpg) no-repeat;
+  height: 530px; }
+  .footer .footer-content {
+    padding-top: 70px; }
+  .footer .footer-address {
+    font-weight: asap;
+    color: #ffffff; }
+    .footer .footer-address b {
+      font-size: 19px; }
+    .footer .footer-address p {
+      font-size: 16px;
+      padding-top: 20px; }
+    .footer .footer-address .fa {
+      padding-right: 10px; }
+  .footer .footer-product {
+    padding-left: 100px;
+    color: #ffffff; }
+    .footer .footer-product b {
+      font-size: 19px; }
+    .footer .footer-product li {
+      padding-top: 20px; }
+      .footer .footer-product li a {
+        font-size: 16px;
+        color: #ffffff; }
+    .footer .footer-product .link-boder a {
+      border-bottom: solid 1px #ffffff; }
+  .footer .footer-link {
+    padding-left: 50px; }
+    .footer .footer-link b {
+      font-size: 19px;
+      color: #ffffff; }
+    .footer .footer-link .link-right {
+      padding-left: 0;
+      padding-top: 25px; }
+      .footer .footer-link .link-right img {
+        padding-left: 5px; }
+  .footer .clear {
+    padding-top: 40px;
+    border-bottom: solid 1px #4b579b; }
+  .footer .footer-map {
+    padding-top: 40px; }
+    .footer .footer-map .text-right {
+      margin-top: -55px; }
+    .footer .footer-map .map-content {
+      color: #ffffff;
+      line-height: 30px; }
+    .footer .footer-map .icon-ship {
+      padding-top: 10px; }
+    .footer .footer-map .ship-content {
+      color: #ffffff;
+      line-height: 30px; }
+  .footer .copy-right {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 60px; }
+
+@media only screen and (max-width: 1199px) {
+  .footer {
+    background: url(../img/icons/bgr-footer.jpg) no-repeat;
+    height: 756px;
+    background-size: 100% 100%; }
+    .footer .footer-product {
+      padding-left: 0; }
+    .footer .footer-link {
+      padding-left: 0;
+      text-align: center; } }
+
+@media only screen and (max-width: 990px) {
+  .footer {
+    background: url(../img/icons/bgr-footer.jpg) no-repeat;
+    height: 820px;
+    background-size: 100% 100%; } }
+
+@media only screen and (max-width: 660px) {
+  .footer .footer-logo img {
+    width: 50px;
+    height: 60px; }
+  .footer .footer-address b {
+    font-size: 14px; }
+  .footer .footer-address p {
+    font-size: 12px; }
+  .footer .footer-product b {
+    font-size: 14px; }
+  .footer .footer-product li a {
+    font-size: 12px; }
+  .footer .footer-map img {
+    width: 33px;
+    height: 50px; }
+  .footer .footer-map b {
+    font-size: 14px; }
+  .footer .footer-map p {
+    font-size: 12px; } }
+
+@media (max-width: 768px) {
+  .footer {
+    height: 1088px;
+    background-size: 100% 100%; }
+  .footer-logo {
+    text-align: center; }
+  .footer-address {
+    padding-top: 20px;
+    text-align: center; }
+  .footer-product {
+    padding-top: 20px;
+    margin-left: 10px;
+    text-align: center; }
+  .footer-link {
+    padding-top: 20px;
+    text-align: center; } }
+
+@media only screen and (max-width: 400px) {
+  .footer {
+    background: url(../img/icons/img-400.png) no-repeat;
+    background-size: 100%;
+    height: 1088px; }
+    .footer .footer-logo {
+      width: 100%;
+      text-align: center; }
+      .footer .footer-logo img {
+        width: 110px;
+        height: 122px; }
+    .footer .footer-address {
+      width: 100%;
+      padding-top: 30px;
+      padding-left: 0; }
+      .footer .footer-address b {
+        font-size: 18px; }
+      .footer .footer-address p {
+        font-size: 14px; }
+    .footer .footer-product {
+      width: 100%;
+      padding-top: 30px; }
+      .footer .footer-product b {
+        font-size: 18px; }
+      .footer .footer-product li a {
+        font-size: 14px; }
+    .footer .footer-link {
+      width: 100%;
+      padding-top: 30px; }
+    .footer .footer-map {
+      padding-left: 0; }
+      .footer .footer-map .col-xs-6 {
+        width: 100%;
+        padding: 0; }
+      .footer .footer-map .map {
+        padding-left: 0; }
+        .footer .footer-map .map .icon-map {
+          padding: 0; }
+        .footer .footer-map .map .map-content {
+          padding: 0; }
+      .footer .footer-map .ship {
+        padding: 0; }
+        .footer .footer-map .ship .icon-ship {
+          padding: 0; }
+        .footer .footer-map .ship .ship-content {
+          padding: 0; }
+  .buttom-header {
+    display: none; } }
+
+.nav-header {
+  width: 100%;
+  height: 70px;
+  font-family: 'Asap', sans-serif; }
+  .nav-header--navbar {
+    margin: 0;
+    background-color: #283890;
+    height: 100%; }
+    .nav-header--navbar .nav-header--brand {
+      height: 100%; }
+      .nav-header--navbar .nav-header--brand .nav-header--collapse {
+        width: 100%;
+        height: 100px; }
+        .nav-header--navbar .nav-header--brand .nav-header--collapse ul li {
+          height: 100%; }
+          .nav-header--navbar .nav-header--brand .nav-header--collapse ul li a {
+            line-height: 38px;
+            font-size: 16px;
+            color: #ffffff; }
+          .nav-header--navbar .nav-header--brand .nav-header--collapse ul li a:hover {
+            background-color: #d02128;
+            color: #ffffff; }
+          .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li {
+            padding-top: 9px; }
+            .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li a {
+              color: black; }
+            .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li a:hover {
+              color: red;
+              background: none; }
+            .nav-header--navbar .nav-header--brand .nav-header--collapse ul li .dropdown-menu li b {
+              font-size: 16px; }
+      .nav-header--navbar .nav-header--brand .dropdown {
+        height: 265px;
+        position: unset; }
+
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+  background-color: #d02128;
+  color: #ffffff; }
+
+li.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown-menu li a {
+  color: black; }
+
+#bs-example-navbar-collapse-1 {
+  position: relative; }
+
+.dropdown-menu {
+  width: 100%;
+  position: absolute; }
+
+.title-hover {
+  padding-top: 11px; }
+
+.nav-search {
+  font-family: quicksand;
+  padding-top: 80px;
+  border: unset;
+  font-size: 20px;
+  padding-right: 0; }
+  .nav-search input {
+    border: unset; }
+
+.nav-header-exi {
+  padding-left: 0;
+  padding-top: 160px;
+  font-size: 16px;
+  font-family: quicksand; }
+  .nav-header-exi span {
+    color: red; }
+  .nav-header-exi .but-exi {
+    border: unset;
+    background-color: unset; }
+
+.mxd-GirdProduct .mxd-GirdProduct-img {
+  position: relative; }
+  .mxd-GirdProduct .mxd-GirdProduct-img img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-title {
+  position: absolute;
+  top: 33%;
+  left: 5%;
+  color: #fff;
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 16px; }
+
+.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+  color: #fff;
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 215%;
+  width: 30%; }
+
+.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-decs {
+  position: absolute;
+  top: 67%;
+  left: 5%;
+  color: #fff;
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 16px; }
+
+.mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-number {
+  position: absolute;
+  top: 72%;
+  left: 5%;
+  color: #fff;
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 30px; }
+
+@media only screen and (max-width: 1199px) {
+  .mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-title {
+    top: 25%;
+    font-size: 16px; }
+  .mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+    top: 32%;
+    width: 40%; } }
+
+@media only screen and (max-width: 991px) {
+  .mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+    width: 29%; } }
+
+@media only screen and (max-width: 425px) {
+  .mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-cap {
+    width: 54%; }
+  .mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-decs {
+    top: 70%; }
+  .mxd-GirdProduct .mxd-GirdProduct-text .mxd-GirdProduct-number {
+    top: 75%; } }
