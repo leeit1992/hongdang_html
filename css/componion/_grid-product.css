@@ -1,0 +1,68 @@
+.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+  text-align: center; }
+
+.grid-product {
+  width: 260px;
+  display: inline-grid; }
+  .grid-product--image {
+    max-width: 100%;
+    height: 300px;
+    display: inline-block;
+    position: relative; }
+    .grid-product--image:hover .grid-product-text-link {
+      display: block; }
+    .grid-product--image img {
+      max-width: 100%; }
+    .grid-product--image .grid-product-text-link {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: white;
+      opacity: 0.7;
+      border: 2px solid red; }
+      .grid-product--image .grid-product-text-link .grid-product--wrap-button {
+        max-width: 100%;
+        height: 100%;
+        position: relative; }
+      .grid-product--image .grid-product-text-link a {
+        position: absolute;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: 'Quicksand';
+        border-radius: 20px;
+        border: 2px solid #cf2127;
+        padding: 5px;
+        background-color: #cf2127;
+        color: #fff;
+        top: 43%;
+        left: 17%;
+        width: 65%;
+        text-align: center;
+        line-height: 22px; }
+  .grid-product--desc {
+    margin-top: 32px;
+    text-align: left; }
+  .grid-product--button a {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Asap'; }
+  .grid-product--title {
+    font-weight: 700;
+    font-family: 'Asap';
+    font-size: 16px;
+    padding-top: 20px; }
+  .grid-product--price {
+    font-weight: 500;
+    font-family: 'Asap';
+    font-size: 16px;
+    padding-top: 20px; }
+    .grid-product--price a {
+      text-decoration: underline;
+      color: red; }
