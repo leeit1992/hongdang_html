@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Categori-machine {
 	margin-top: 80px;
 
@@ -241,4 +242,249 @@
 			.mxd-banner-link {
 				line-height: 14px;
 			}
+=======
+.Categori-machine {
+	margin-top: 80px;
+
+		position: relative;
+	.mxd-banner-img {
+		position: relative;
+	    width: 100%;
+		img{
+			width: 100%;
+		}
+		.mxd-banner-text {
+			top: 20%;
+			width: 100%;
+			.mxd-banner-title {
+				font-family: 'Asap';
+				font-weight: 700;
+				font-size: 16px;
+			    position: absolute;
+			    top: 18%;
+			    right: 6%;
+			    color: #fff;
+			}
+			.mxd-banner-cap {
+				font-family: 'Asap';
+				font-weight: 700;
+				font-size: 60px;
+				position: absolute;
+			    top: 24%;
+			    right: 6%;
+			    color: #fff;
+			}
+			.mxd-banner-decs {
+				font-family: 'quicksand';
+				font-weight: 500;
+				font-size: 20px;
+				position: absolute;
+			    top: 50%;
+			    right: 6%;
+			    color: #fff;
+			}
+			.mxd-banner-link {
+				position: absolute;
+			    right: 7%;
+			    border-radius: 30px;
+			    border: 2px solid #fff;
+			    top: 70%;
+			    width: 25%;
+			    height: 13%;
+			    text-align: center;
+			    padding-top: 1%;
+			    a{
+		    	    font-family: 'Asap';
+				    font-weight: 700;
+				    font-size: 16px;
+				    color: #fff;
+				    text-decoration: none;
+			    }
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+			    font-size: 13px;
+
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+			    font-size: 50px;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+			    font-size: 17px;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+			    padding-top: 2px;
+			}
+		}
+
+
+@media only screen and (max-width: 991px) {
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+			    font-size: 25px;
+			}
+
+				.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+			    font-size: 80px;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+			    font-size: 26px;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+			    padding-top: 5px;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link a {
+			    font-size: 25px;
+			    
+			}
+		}
+
+
+@media only screen and (max-width: 425px) {
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-title {
+			        font-size: 13px;
+			}
+
+				.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-cap {
+			        font-size: 45px;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-decs {
+			        font-size: 13px;
+			        top: 55%;
+
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link {
+			    padding-top: 5px;
+			    padding-bottom: 7%;
+			}
+
+			.Categori-machine .mxd-banner-img .mxd-banner-text .mxd-banner-link a {
+			    font-size: 12px;
+			    
+			}
+		}
+
+
+
+
+
+
+.Categori-machine {
+	margin-top: 80px;
+
+		position: relative;
+	.mxd-banner-img-r {
+		position: relative;
+	    width: 100%;
+		img{
+			width: 100%;
+		}
+		.mxd-banner-text-r {
+			top: 20%;
+			width: 100%;
+			.mxd-banner-title-r {
+				font-family: 'Asap';
+				font-weight: 700;
+				font-size: 16px;
+			    position: absolute;
+			    top: 13%;
+			    color: #fff;
+		        left: 6%;
+			}
+			.mxd-banner-cap-r {
+				font-family: 'Asap';
+				font-weight: 700;
+				font-size: 60px;
+				position: absolute;
+			    top: 24%;
+			    color: #fff;
+			    width: 25%;
+			    line-height: 100%;
+			    left: 6%;
+			}
+			.mxd-banner-decs-r {
+				font-family: 'quicksand';
+				font-weight: 700;
+				font-size: 16px;
+				position: absolute;
+			    top: 72%;
+			    color: #fff;
+			    left: 6%;
+			}
+			.mxd-banner-number-r {
+				position: absolute;
+			    top: 79%;
+			    font-family: 'Asap';
+			    font-weight: 700;
+			    font-size: 16px;
+			    color: #fff;
+			    left: 6%;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 991px) {
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-title-r {
+			    font-size: 25px;
+			}
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-cap-r {
+			    font-size: 80px;
+			}
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-decs-r {
+			    font-size: 26px;
+			}
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-number-r{
+			   top: 81%;
+			    font-size: 25px;
+			}
+			
+		}
+
+
+@media only screen and (max-width: 425px) {
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-title-r {
+			    font-size: 13px;
+			}
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-cap-r {
+			    font-size: 40px;
+			}
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-decs-r {
+			    font-size: 13px;
+			}
+
+			.Categori-machine .mxd-banner-img-r .mxd-banner-text-r .mxd-banner-number-r{
+			   top: 80%;
+			    font-size: 13px;
+			}
+			
+		}
+		@media only screen and (max-width: 320px) {
+			.mxd-banner-link {
+				line-height: 14px;
+			}
+>>>>>>> 7cd72b3a2099eb65f2d7fdeba0864c3dd6e90c9e
 		}
