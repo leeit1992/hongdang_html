@@ -1,0 +1,40 @@
+.mxd-content-productdetail .mxd-content-wrap .mxd-content-titleDetail {
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 30px; }
+
+.mxd-content-productdetail .mxd-content-wrap .mxd-title-decs-1 {
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 20px; }
+
+.mxd-content-productdetail .mxd-content-wrap .content-decs-1 {
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 16px;
+  color: #787878; }
+
+.mxd-content-productdetail .mxd-content-wrap .content-decs-2 {
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 16px;
+  color: #787878;
+  margin-top: 4%; }
+
+.mxd-content-productdetail .mxd-content-wrap .mxd-title-decs-2 {
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 3%; }
+
+.mxd-content-productdetail .mxd-content-wrap .content-decs-3 {
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 16px;
+  color: #787878; }
+
+.mxd-content-productdetail .mxd-content-img {
+  margin-top: 4%; }
+  .mxd-content-productdetail .mxd-content-img img {
+    max-width: 100%;
+    max-height: 100%; }
