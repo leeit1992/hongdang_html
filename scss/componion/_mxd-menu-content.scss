@@ -1,0 +1,50 @@
+.menu-content-wrap {
+	text-align: center;
+	.wrap-menu {
+	    display: inline-flex;
+    	text-indent: 10px;
+    	font-family: 'Asap';
+    	font-size: 25px;
+    	font-weight: 700;
+    	.text-menu {
+		    margin: 15px;
+
+    	}
+    	div:after {
+		    content: "/";
+		    padding-left: 35px;
+		    color: #c7c7c7;
+		}
+	}
+
+	.menu-title-decs {
+		font-family: 'Quicksand';
+    	font-size: 20px;
+    	font-weight: 300;
+	}
+}
+
+
+@media only screen and (max-width: 991px) {
+
+			.menu-content-wrap .wrap-menu .text-menu {
+			    margin: 7px;
+			    font-size: 15px;
+			    div:after {
+				    content: "/";
+				    padding-left: 10px;
+				    color: #c7c7c7;
+				}
+			}
+
+			.menu-content-wrap .menu-title-decs {
+					font-size: 15px;
+				}	
+}
+
+
+@media only screen and (max-width: 425px) {
+		.menu-content-wrap .wrap-menu .text-menu {
+			display: none;
+		}		
+}
