@@ -15,9 +15,87 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-
+    <link href="../assets/css/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <body>
+<section class="header">
+    <div class="container">
+      <div class="row mxd-header-border">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="mxd-header--title">
+            <p>Chào mừng bạn đến với máy xây dựng Hồng Đăng!</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <ul class="mxd-header-menu">
+                <li role="presentation" class="col-sm-2"><a href="#">Giới thiệu</a></li>
+                <li role="presentation" class="col-lg-4"><a href="#">Tư vấn sản phẩm</a></li>
+                <li role="presentation" class="col-sm-3"><a href="#">Khuyến mãi</a></li>
+                <li role="presentation" class="col-sm-3"><a href="#">Tuyển dụng</a></li>
+              </ul>
+          </div>
+      </div>
+    </div>
+</section>  
+<section class="mxd-contact-header">
+  <div class="container">
+  <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-1 col-xs-12 wrap">
+        <div class="contact-logo">
+            <img src="../assets/img/logo.png">
+          </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-7 col-sm-9 col-xs-9 contact-hot">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contact-hl">
+              <div class="media">
+                <div class="media-left">
+                  <img class="media-object" src="../assets/img/icons/phone-icon.png">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">HOTLINE 1</h4>
+                  <p class="media-num">0988-874-799</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contact-hl">
+              <div class="media">
+                <div class="media-left">
+                  <img class="media-object" src="../assets/img/icons/phone-icon.png">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">HOTLINE 1</h4>
+                  <p class="media-num">0988-874-799</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  contact-hl">
+              <div class="media">
+                <div class="media-left">
+                  <img class="media-object" src="../assets/img/icons/phone-icon.png">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">HOTLINE 1</h4>
+                  <p class="media-num">0988-874-799</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 wrap-language">
+        <div class="language-ic">
+                  <h4 class="media-right text-right">Ngôn ngữ:</h4>
+                <div class="media-right">
+                    <img class="media-object" src="../assets/img/icons/vietnamese-icon.jpg"">        
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="nav-header">
   <nav class="navbar navbar-default nav-header--navbar" role="navigation">
     <div class="container nav-header--brand">
@@ -189,12 +267,12 @@
                     <ul class="dropdown-menu dropdown-right">
                       <div class="dropdown nav-header-search">
                           <form>
-                            <div class="col-sm-6 nav-search text-right">
+                            <div class="col-sm-6 col-xs-12 nav-search text-right">
                                   <span class="glyphicon glyphicon-search"></span>
                                   <input class="tex-sea-in" type="text" placeholder="Nhập từ khóa tìm kiếm">
                             </div>
 
-                            <div class="col-sm-6 nav-header-exi text-left">
+                            <div class="col-sm-6 col-xs-12 nav-header-exi text-left">
                                   <span class="glyphicon glyphicon-remove"></span>
                                   <button class="but-exi">Đóng tìm kiếm</button>
                             </div>
@@ -203,7 +281,7 @@
                     </ul>
                   </li>
               </ul>
-        </div>
+          </div>
     </div><!-- /.navbar-collapse -->
   </nav>
 </section>
@@ -500,33 +578,52 @@
 <section class="details-product">
     <div class="container">
       <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="details-product--img">
-              <img src="../assets/img/product-advice-1.jpg">
+       <ul class="bxslider">
+          <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4"> 
+              <div>
+                    <div class="details-product--img">
+                      <img src="../assets/img/product-advice-1.jpg">
+                    </div>
+                    <p class="details-product--date">16/11/2017</p>
+                    <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                    <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                    <p class="details-product--link"><a href="">Xem thêm</a></p>
+              </div>
+          </li>
+          <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div>
+                      <div class="details-product--img">
+                        <img src="../assets/img/product-advice-2.jpg">
+                      </div>
+                      <p class="details-product--date">16/11/2017</p>
+                      <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                      <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                      <p class="details-product--link"><a href="">Xem thêm</a></p>
             </div>
-            <p class="details-product--date">16/11/2017</p>
-            <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
-            <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
-            <p class="details-product--link"><a href="">Xem thêm</a></p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="details-product--img">
-              <img src="../assets/img/product-advice-2.jpg">
+          </li>
+          <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div >
+                    <div class="details-product--img">
+                      <img src="../assets/img/product-advice-3.jpg">
+                    </div>
+                    <p class="details-product--date">16/11/2017</p>
+                    <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                    <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                    <p class="details-product--link"><a href="">Xem thêm</a></p>
             </div>
-            <p class="details-product--date">16/11/2017</p>
-            <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
-            <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
-            <p class="details-product--link"><a href="">Xem thêm</a></p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="details-product--img">
-              <img src="../assets/img/product-advice-3.jpg">
+          </li>
+          <li  class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div>
+                    <div class="details-product--img">
+                      <img src="../assets/img/product-advice-3.jpg">
+                    </div>
+                    <p class="details-product--date">16/11/2017</p>
+                    <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                    <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                    <p class="details-product--link"><a href="">Xem thêm</a></p>
             </div>
-            <p class="details-product--date">16/11/2017</p>
-            <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
-            <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
-            <p class="details-product--link"><a href="">Xem thêm</a></p>
-          </div>
+          </li>
+        </ul>
       </div>
     </div>
 </section>
@@ -628,3 +725,22 @@
       <p>Copyright © 2016 Hồng Đăng - All Rights Reserved.</p>
     </div>
 </footer>
+<!-- jQuery library -->
+<script src="../assets/js/jquery-3.1.1.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="../assets/js/jquery.bxslider.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      mode: 'horizontal',
+      moveSlides: 1,
+      slideMargin: 40,
+      infiniteLoop: true,
+      slideWidth: 660,
+      minSlides: 3,
+      maxSlides: 3,
+      speed: 800,
+    });
+  });
+</script>
+</body>

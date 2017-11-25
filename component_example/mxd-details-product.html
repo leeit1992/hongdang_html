@@ -11,39 +11,77 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link href="../assets/css/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <body>
 <section class="details-product">
     <div class="container">
       <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="details-product--img">
-              <img src="../assets/img/product-advice-1.jpg">
+       <ul class="bxslider">
+          <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4"> 
+              <div>
+                    <div class="details-product--img">
+                      <img src="../assets/img/product-advice-1.jpg">
+                    </div>
+                    <p class="details-product--date">16/11/2017</p>
+                    <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                    <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                    <p class="details-product--link"><a href="">Xem thêm</a></p>
+              </div>
+          </li>
+          <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div>
+                      <div class="details-product--img">
+                        <img src="../assets/img/product-advice-2.jpg">
+                      </div>
+                      <p class="details-product--date">16/11/2017</p>
+                      <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                      <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                      <p class="details-product--link"><a href="">Xem thêm</a></p>
             </div>
-            <p class="details-product--date">16/11/2017</p>
-            <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
-            <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
-            <p class="details-product--link"><a href="">Xem thêm</a></p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="details-product--img">
-              <img src="../assets/img/product-advice-2.jpg">
+          </li>
+          <li class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div >
+                    <div class="details-product--img">
+                      <img src="../assets/img/product-advice-3.jpg">
+                    </div>
+                    <p class="details-product--date">16/11/2017</p>
+                    <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                    <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                    <p class="details-product--link"><a href="">Xem thêm</a></p>
             </div>
-            <p class="details-product--date">16/11/2017</p>
-            <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
-            <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
-            <p class="details-product--link"><a href="">Xem thêm</a></p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="details-product--img">
-              <img src="../assets/img/product-advice-3.jpg">
+          </li>
+          <li  class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div>
+                    <div class="details-product--img">
+                      <img src="../assets/img/product-advice-3.jpg">
+                    </div>
+                    <p class="details-product--date">16/11/2017</p>
+                    <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
+                    <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
+                    <p class="details-product--link"><a href="">Xem thêm</a></p>
             </div>
-            <p class="details-product--date">16/11/2017</p>
-            <p class="details-product--title">Cách tự sửa chữa khi pa lăng bị hỏng</p>
-            <p class="details-product--deps">Một trong những thiết bị nâng hạ rất phổ biến được sử dụng nhiều trong công nghiệp và trong các công việc nâng [...]</p>
-            <p class="details-product--link"><a href="">Xem thêm</a></p>
-          </div>
+          </li>
+        </ul>
       </div>
     </div>
 </section>
+<!-- jQuery library -->
+<script src="../assets/js/jquery-3.1.1.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="../assets/js/jquery.bxslider.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      mode: 'horizontal',
+      moveSlides: 1,
+      slideMargin: 40,
+      infiniteLoop: true,
+      slideWidth: 660,
+      minSlides: 3,
+      maxSlides: 3,
+      speed: 800,
+    });
+  });
+</script>
 </body>
