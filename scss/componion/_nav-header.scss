@@ -69,7 +69,7 @@ li.dropdown:hover > .dropdown-menu {
 	color: black;
 }
 #bs-example-navbar-collapse-1{
-  position: relative;
+
   }
 .dropdown-menu{
  width: 100%;
@@ -101,11 +101,38 @@ li.dropdown:hover > .dropdown-menu {
 		background-color: unset;
 	}
 }
+
+.hover{
+	width: 98%;
+	height: 100%;
+	float: left;
+}
+#bs-example-navbar-collapse-1 {
+    float: left;
+    width: 99%;
+}
+.right-search {
+    width: 1%;
+    height: 100%;
+    float: left;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fdf6f6;
+    font-size: 16px;
+}
+.right-search ul li a {
+    line-height: 38px;
+}
+.nav-header--navbar .nav-header--brand {
+    position: relative;
+    height: 100%;
+}
 @media only screen and (max-width: 764px){
 	.navbar-nav {
     background-color: #283890;
 	}
 	#bs-example-navbar-collapse-1 {
+	position: relative;
     z-index: 1000;
 	}
 	.nav-header--navbar .nav-header--brand .dropdown {
@@ -125,14 +152,54 @@ li.dropdown:hover > .dropdown-menu {
 	}
 
 	.nav-search {
-    text-align: center;
-    padding-top: 23px;
-    padding-right: 0;
+	    text-align: center;
+	    padding-top: 23px;
+	    padding-right: 0;
 	}
 
 	.nav-header-exi {
-    padding-top: 40px;
-    text-align: center;
+	    padding-top: 40px;
+	    text-align: center;
+	}
+	.nav-header--navbar .nav-header--brand {
+    	height: 100%;
+    	padding-top: 7px;
+	}
+	.nav-header--navbar {
+    background-color: #fff;
+    height: 100%;
+	}
+	.navbar-default {
+     border-color: #fff; 
+	}
+	.nav-header{
+		padding-top: 0;
+	}
+	.navbar-right{
+    background-color: #fff;
+	}
+	.right-search {
+    width: 6%;
+    float: left;
+    height: auto;
+    padding-left: 77%;
+    margin-top: -135px;
+	}
+	.navbar-default .navbar-nav > li > a {
+    color: #060606;
+	}
+
+	.navbar-default .navbar-toggle {
+    background-color: #283891;
+	}
+
+	.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+	.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+	    background-color: #ffffff;
+		color: red;
+	}
+	.dropdown-right{
+		position: absolute;
 	}
   }
 .caret{
@@ -157,5 +224,11 @@ li.dropdown:hover > .dropdown-menu {
 	}
 	.navbar-right {
      margin-right: 0;
+	}
 }
+@media only screen and (width: 320px){
+
+	.right-search {
+	    padding-left: 73%;
+	}
 }
