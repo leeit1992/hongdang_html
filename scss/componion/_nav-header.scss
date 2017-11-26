@@ -180,6 +180,7 @@ li.dropdown:hover > .dropdown-menu {
     height: 100%;
 	}
 	.navbar-default {
+
      border-color: #fff; 
 	}
 	.nav-header{
@@ -193,7 +194,7 @@ li.dropdown:hover > .dropdown-menu {
     float: left;
     height: auto;
     padding-left: 77%;
-    margin-top: -135px;
+    margin-top: -128px;
     	.text-right{
     		display: block;
     	}
@@ -222,7 +223,10 @@ li.dropdown:hover > .dropdown-menu {
 	    background-color: #efebec;
 	    color: #ea0606;
 	}
-
+	.navbar-default .navbar-toggle {
+		margin-top: 16px;
+    	background-color: #283891;
+	}
   }
 .caret{
 	margin-left: 10px;

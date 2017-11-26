@@ -112,13 +112,13 @@ ul.bxslider {
   text-decoration: none;
   position: absolute;
   top: 50%;
-  margin-top: -16px;
+  margin-top: -180px;
   outline: 0;
   width: 32px;
   height: 32px;
 /*  text-indent: -9999px;*/
   z-index: 9999;
-  font-size: 30px;
+  font-size: 56px;
   color: #979696;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
@@ -180,4 +180,9 @@ ul.bxslider {
   display: block;
   font-size: .85em;
   padding: 10px;
+}
+@media only screen and (max-width: 764px){
+  .bx-wrapper .bx-controls-direction a {
+      display: none;
+  }
 }

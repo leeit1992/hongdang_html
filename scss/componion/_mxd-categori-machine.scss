@@ -51,6 +51,12 @@
 	padding-top: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+	.mxd-machine-img {
+ 		margin-left: 12%;
+	}
+}
+
 @media only screen and (max-width: 426px) {
 
 			.mxd-machine .mxd-wrap-img .mxd-wrap-title{
@@ -68,9 +74,7 @@
 			.mxd-machine .mxd-wrap-img .mxd-wrap-link {
 			    padding: 7px 30px;
 			}
-		}
-@media only screen and (max-width: 768px) {
-	.mxd-machine-img {
- 
-	}
+			.mxd-machine-img {
+    			margin-left: 5%;
+			}
 }
