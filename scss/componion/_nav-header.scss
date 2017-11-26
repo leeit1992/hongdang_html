@@ -132,8 +132,18 @@ li.dropdown:hover > .dropdown-menu {
     background-color: #283890;
 	}
 	#bs-example-navbar-collapse-1 {
-	position: relative;
-    z-index: 1000;
+		position: relative;
+	    z-index: 1000;
+	    margin-top: -71px;
+    	width: 70%;
+	    ul{
+	    	li:hover{
+	    		a:focus{
+	    			background-color: red;
+	    			color:#fff;
+	    		}
+	    	}
+	    }
 	}
 	.nav-header--navbar .nav-header--brand .dropdown {
     height: auto;
@@ -184,6 +194,16 @@ li.dropdown:hover > .dropdown-menu {
     height: auto;
     padding-left: 77%;
     margin-top: -135px;
+    	.text-right{
+    		display: block;
+    	}
+    	.navbar-right{
+    		li{
+    			.dropdown-right{
+    				position: absolute;
+    			}
+    		}
+    	}
 	}
 	.navbar-default .navbar-nav > li > a {
     color: #060606;
@@ -198,9 +218,11 @@ li.dropdown:hover > .dropdown-menu {
 	    background-color: #ffffff;
 		color: red;
 	}
-	.dropdown-right{
-		position: absolute;
+	.navbar-default .navbar-nav > li.dropdown:hover > a, .navbar-default .navbar-nav > li.dropdown:hover > a:hover, .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+	    background-color: #efebec;
+	    color: #ea0606;
 	}
+
   }
 .caret{
 	margin-left: 10px;

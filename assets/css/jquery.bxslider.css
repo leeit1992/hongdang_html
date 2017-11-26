@@ -109,6 +109,7 @@ ul.bxslider {
   background-position: -43px 0;
 }
 .bx-wrapper .bx-controls-direction a {
+  text-decoration: none;
   position: absolute;
   top: 50%;
   margin-top: -16px;
