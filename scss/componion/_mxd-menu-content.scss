@@ -1,4 +1,5 @@
 .menu-content-wrap {
+
 	text-align: center;
 	.wrap-menu {
 	    display: inline-flex;
@@ -6,13 +7,25 @@
     	font-family: 'Asap';
     	font-size: 25px;
     	font-weight: 700;
+    	
     	.text-menu {
 		    margin: 15px;
 
     	}
+
+
+    	.text-menu-1 {
+    		 margin: 15px;
+    		 position: relative;
+    		 i {
+    		display: none;
+    		position: absolute;
+    		}
+    	}
+
     	div:after {
 		    content: "/";
-		    padding-left: 35px;
+		    padding-left: 20px;
 		    color: #c7c7c7;
 		}
 	}
@@ -37,6 +50,16 @@
 				}
 			}
 
+			.menu-content-wrap .wrap-menu .text-menu-1 {
+			   margin: 7px;
+			    font-size: 15px;
+			    div:after {
+				    content: "/";
+				    padding-left: 10px;
+				    color: #c7c7c7;
+				}
+			}
+
 			.menu-content-wrap .menu-title-decs {
 					font-size: 15px;
 				}	
@@ -44,7 +67,35 @@
 
 
 @media only screen and (max-width: 425px) {
+	.wrap-menu {
+		width: 100%;
+	}
+
+		
 		.menu-content-wrap .wrap-menu .text-menu {
 			display: none;
-		}		
+		}	
+
+		
+		  .menu-content-wrap .wrap-menu div:after {
+			    content: none;
+			}
+
+		.menu-content-wrap .wrap-menu .text-menu-1 {
+			border: 2px solid red;
+			border-radius: 30px;
+			width: 100%;
+			text-align: left;
+			padding-top: 8px;
+			height: 40px;
+			color: red;
+			position: relative;
+			i {
+				display: block;
+				position: absolute;
+			    right: 6%;
+			    top: 22%;
+			}
+			
+		}
 }
